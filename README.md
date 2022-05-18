@@ -1,1 +1,1 @@
-# cc2652r_4Key_RC
+# cc2652r/rb_4Key_RC
