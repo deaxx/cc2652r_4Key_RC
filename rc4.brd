@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -511,6 +511,10 @@
 <wire x1="21.6" y1="10" x2="21.5" y2="10.1" width="0.2" layer="25"/>
 <wire x1="21.5" y1="10.1" x2="21.5" y2="9.9" width="0.2" layer="25"/>
 <wire x1="21.5" y1="9.9" x2="24.9" y2="9.9" width="0.2" layer="25"/>
+<wire x1="4.89446875" y1="9.6784875" x2="4.89446875" y2="9.833759375" width="0.2" layer="25"/>
+<wire x1="4.89446875" y1="9.833759375" x2="5.751434375" y2="13.980040625" width="0.2" layer="25" curve="-23.355271"/>
+<wire x1="24.88325625" y1="9.84369375" x2="24.88325625" y2="9.975475" width="0.2" layer="25"/>
+<wire x1="24.88325625" y1="9.975475" x2="23.25961875" y2="15.314221875" width="0.2" layer="25" curve="33.831494"/>
 </plain>
 <libraries>
 <library name="ok-chips-dev">
@@ -1451,9 +1455,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="E1" library="SparkFun-RF2" package="TRACE_ANTENNA_2.4GHZ_15.2MM" package3d_urn="urn:adsk.eagle:package:39575/1" value="ANTENNA-GROUNDEDTRACE-15.2MM" x="21.0153" y="36.735521875" smashed="yes" rot="SR0">
 <attribute name="VALUE" x="21.0153" y="37.751521875" size="0.6096" layer="27" font="vector" ratio="20" rot="SR0" align="top-center"/>
 </element>
-<element name="R9" library="ok-discretes-dev" package="_PKG_C_0402" value="0" x="17.48039375" y="35.219609375" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.746190625" y="34.858565625" size="0.762" layer="25" font="vector"/>
-<attribute name="VALUE" x="16.46439375" y="36.108609375" size="0.508" layer="27" font="vector" rot="R270"/>
+<element name="R9" library="ok-discretes-dev" package="_PKG_C_0402" value="0" x="17.572684375" y="35.2048875" smashed="yes" rot="R223.1">
+<attribute name="NAME" x="16.0191125" y="35.485715625" size="0.762" layer="25" font="vector" rot="R354.4"/>
+<attribute name="VALUE" x="17.5275875" y="36.554159375" size="0.508" layer="27" font="vector" rot="R223.1"/>
 </element>
 <element name="BT1" library="Batteries" package="BATTCON_20MM_4LEGS_OVERPASTE" package3d_urn="urn:adsk.eagle:package:37220/1" value="" x="14.8873" y="9.864" smashed="yes">
 <attribute name="PROD_ID" value="PRT-11892 " x="14.8873" y="9.864" size="1.778" layer="27" display="off"/>
@@ -2004,15 +2008,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="15.2" y="33.9" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="15.7" y="34.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="16.2" y="34.7" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="16.7" y="35" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="16.695928125" y="35.713953125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="16.5746125" y="35.12421875" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="17.0352625" y="35.63919375" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.04034375" y="36.3058625" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.2" y="32.8" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.2" y="33.4" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.4" y="34" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="18" y="34.3" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="18.3" y="34.97325625" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="18.295928125" y="35.681396875" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="18.07361875" y="34.536965625" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="18.62309375" y="34.846265625" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="18.619021875" y="35.6508" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="14.6" y="32.6" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="14.1" y="32.9" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="13.6" y="33.3" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2086,7 +2090,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="18.3" y="33.4" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="19.761725" y="33.251965625" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="20.195465625" y="35.495434375" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="19.15065" y="35.589578125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="19.35080625" y="35.223803125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="21.1" y="34.4" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="19.687240625" y="34.41930625" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="21.7" y="35.2" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2106,7 +2110,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="2.4009" y="26.9036" extent="1-16" drill="0.254" diameter="0.4572"/>
 <wire x1="2.4009" y1="26.9036" x2="2.4009" y2="26.871609375" width="0.1524" layer="1"/>
 <wire x1="2.4" y1="26.870709375" x2="2.4009" y2="26.871609375" width="0.1524" layer="1"/>
-<via x="19.024140625" y="36.3" extent="1-16" drill="0.3"/>
+<via x="19.024140625" y="36.3115" extent="1-16" drill="0.3"/>
 <via x="18.51695625" y="36.302825" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="24.7372125" y="34.40759375" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="20.305253125" y="33.77091875" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2116,6 +2120,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="8.9443875" y="27.624521875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="8.3443875" y="29.324521875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="7.7443875" y="27.924521875" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="19.306078125" y="33.591546875" extent="1-16" drill="0.2" diameter="0.45"/>
 </signal>
 <signal name="DCOUPL">
 <contactref element="IC3" pad="23"/>
@@ -2463,15 +2468,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$3">
 <contactref element="R9" pad="2"/>
 <contactref element="FL1" pad="1"/>
-<wire x1="15.79" y1="33.5" x2="16.15418125" y2="33.9225125" width="0.254" layer="1"/>
-<wire x1="16.15418125" y1="33.9225125" x2="17.48039375" y2="34.789609375" width="0.3048" layer="1"/>
+<wire x1="17.2587125" y1="34.911078125" x2="16.0974375" y2="33.8074375" width="0.3048" layer="1"/>
+<wire x1="15.79" y1="33.5" x2="16.0974375" y2="33.8074375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R9" pad="1"/>
 <contactref element="E1" pad="ANT"/>
-<wire x1="17.8883" y1="36.485521875" x2="17.878234375" y2="36.09115625" width="0.3048" layer="1"/>
-<wire x1="17.878234375" y1="36.09115625" x2="17.48039375" y2="35.768509375" width="0.3048" layer="1"/>
-<wire x1="17.48039375" y1="35.768509375" x2="17.48039375" y2="35.649609375" width="0.3048" layer="1"/>
+<wire x1="17.8883" y1="36.485521875" x2="17.894615625" y2="36.47920625" width="0.3048" layer="1"/>
+<wire x1="17.8883" y1="36.485521875" x2="17.886653125" y2="35.49869375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="Q1" pad="2"/>
@@ -9564,6 +9568,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,1,6c4390a4b5ac494b"/>
 <approved hash="6,1,396b2c3b8b94bea4"/>
 <approved hash="6,1,83232742321db61c"/>
+<approved hash="19,1,180cc7b6d94de778"/>
+<approved hash="19,1,d23e711fedff7eee"/>
+<approved hash="19,1,9aa6a3294a4127e2"/>
+<approved hash="19,1,ec678d93da216f7b"/>
 </errors>
 </board>
 </drawing>
