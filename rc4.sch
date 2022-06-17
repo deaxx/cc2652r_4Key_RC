@@ -187,226 +187,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
-<library name="ok-chips-dev">
-<packages>
-<package name="QFN50P700X700X100-49N">
-<description>&lt;b&gt;RGZ0048A-3&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="2" x="-3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="3" x="-3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="4" x="-3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="5" x="-3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="6" x="-3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="7" x="-3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="8" x="-3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="9" x="-3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="10" x="-3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="11" x="-3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="12" x="-3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="13" x="-2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="-2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="-1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="-1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="-0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="-0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="22" x="1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="23" x="2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="24" x="2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="25" x="3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="26" x="3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="27" x="3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="28" x="3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="29" x="3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="30" x="3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="31" x="3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="32" x="3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="33" x="3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="34" x="3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="35" x="3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="36" x="3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="37" x="2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="38" x="2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="39" x="1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="40" x="1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="41" x="0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="42" x="0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="43" x="-0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="44" x="-0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="45" x="-1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="46" x="-1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="47" x="-2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="48" x="-2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="49" x="0" y="0" dx="5.25" dy="5.25" layer="1" roundness="3" rot="R90" cream="no"/>
-<text x="0" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.125" y1="4.125" x2="4.125" y2="4.125" width="0.05" layer="51"/>
-<wire x1="4.125" y1="4.125" x2="4.125" y2="-4.125" width="0.05" layer="51"/>
-<wire x1="4.125" y1="-4.125" x2="-4.125" y2="-4.125" width="0.05" layer="51"/>
-<wire x1="-4.125" y1="-4.125" x2="-4.125" y2="4.125" width="0.05" layer="51"/>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
-<circle x="-3.875" y="3.5" radius="0.125" width="0.25" layer="25"/>
-<rectangle x1="-2.5" y1="1.5" x2="-1.5" y2="2.5" layer="31"/>
-<rectangle x1="-1.175" y1="1.5" x2="-0.175" y2="2.5" layer="31"/>
-<rectangle x1="0.175" y1="1.5" x2="1.175" y2="2.5" layer="31"/>
-<rectangle x1="1.5" y1="1.5" x2="2.5" y2="2.5" layer="31"/>
-<rectangle x1="-2.5" y1="0.175" x2="-1.5" y2="1.175" layer="31"/>
-<rectangle x1="-2.5" y1="-1.175" x2="-1.5" y2="-0.175" layer="31"/>
-<rectangle x1="-2.5" y1="-2.5" x2="-1.5" y2="-1.5" layer="31"/>
-<rectangle x1="1.5" y1="-2.5" x2="2.5" y2="-1.5" layer="31"/>
-<rectangle x1="0.175" y1="-2.5" x2="1.175" y2="-1.5" layer="31"/>
-<rectangle x1="-1.175" y1="-2.5" x2="-0.175" y2="-1.5" layer="31"/>
-<rectangle x1="-1.175" y1="-1.175" x2="-0.175" y2="-0.175" layer="31"/>
-<rectangle x1="-1.175" y1="0.175" x2="-0.175" y2="1.175" layer="31"/>
-<rectangle x1="0.175" y1="0.175" x2="1.175" y2="1.175" layer="31"/>
-<rectangle x1="1.5" y1="0.175" x2="2.5" y2="1.175" layer="31"/>
-<rectangle x1="0.175" y1="-1.175" x2="1.175" y2="-0.175" layer="31"/>
-<rectangle x1="1.5" y1="-1.175" x2="2.5" y2="-0.175" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CC2652R1FRGZ">
-<wire x1="-17.78" y1="38.1" x2="17.78" y2="38.1" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-40.64" x2="17.78" y2="38.1" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-40.64" x2="-17.78" y2="-40.64" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="38.1" x2="-17.78" y2="-40.64" width="0.254" layer="94"/>
-<text x="-17.78" y="39.37" size="2.286" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="RF_P" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="RF_N" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="X32K_Q1" x="-22.86" y="20.32" length="middle"/>
-<pin name="X32K_Q2" x="-22.86" y="17.78" length="middle"/>
-<pin name="DIO_0" x="-22.86" y="0" length="middle"/>
-<pin name="DIO_1" x="-22.86" y="-2.54" length="middle"/>
-<pin name="DIO_2" x="-22.86" y="-5.08" length="middle"/>
-<pin name="DIO_3" x="-22.86" y="-7.62" length="middle"/>
-<pin name="DIO_4" x="-22.86" y="-10.16" length="middle"/>
-<pin name="DIO_5" x="-22.86" y="-12.7" length="middle"/>
-<pin name="DIO_6" x="-22.86" y="-15.24" length="middle"/>
-<pin name="DIO_7" x="-22.86" y="-17.78" length="middle"/>
-<pin name="VDDS2" x="22.86" y="35.56" length="middle" rot="R180"/>
-<pin name="DIO_8" x="-22.86" y="-20.32" length="middle"/>
-<pin name="DIO_9" x="-22.86" y="-22.86" length="middle"/>
-<pin name="DIO_10" x="-22.86" y="-25.4" length="middle"/>
-<pin name="DIO_11" x="-22.86" y="-27.94" length="middle"/>
-<pin name="DIO_12" x="-22.86" y="-30.48" length="middle"/>
-<pin name="DIO_13" x="-22.86" y="-33.02" length="middle"/>
-<pin name="DIO_14" x="-22.86" y="-35.56" length="middle"/>
-<pin name="DIO_15" x="-22.86" y="-38.1" length="middle"/>
-<pin name="VDDS3" x="22.86" y="33.02" length="middle" rot="R180"/>
-<pin name="DCOUPL" x="-22.86" y="12.7" length="middle"/>
-<pin name="JTAG_TMSC" x="-22.86" y="35.56" length="middle"/>
-<pin name="DIO_23" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="RESET_N" x="-22.86" y="30.48" length="middle"/>
-<pin name="VDDS_DCDC" x="22.86" y="27.94" length="middle" rot="R180"/>
-<pin name="DCDC_SW" x="-22.86" y="25.4" length="middle"/>
-<pin name="DIO_22" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="DIO_21" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="DIO_20" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="DIO_19" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="DIO_18" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="DIO_17" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="DIO_16" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="JTAG_TCKC" x="-22.86" y="33.02" length="middle"/>
-<pin name="EP" x="-22.86" y="7.62" length="middle"/>
-<pin name="VDDR_RF" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="X48M_P" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="X48M_N" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="VDDR" x="22.86" y="25.4" length="middle" rot="R180"/>
-<pin name="VDDS" x="22.86" y="30.48" length="middle" rot="R180"/>
-<pin name="DIO_30" x="22.86" y="-35.56" length="middle" rot="R180"/>
-<pin name="DIO_29" x="22.86" y="-33.02" length="middle" rot="R180"/>
-<pin name="DIO_28" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<pin name="DIO_27" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="DIO_26" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="DIO_25" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="DIO_24" x="22.86" y="-20.32" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WMCU-CC2652R1FRGZ" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;Texas Instruments SimpleLink? Multi-Standard CC2652R Wireless MCU 48-VQFN -40 to 85&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.ti.com/lit/ds/symlink/cc2652r.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CC2652R1FRGZ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN50P700X700X100-49N">
-<connects>
-<connect gate="G$1" pin="DCDC_SW" pad="33"/>
-<connect gate="G$1" pin="DCOUPL" pad="23"/>
-<connect gate="G$1" pin="DIO_0" pad="5"/>
-<connect gate="G$1" pin="DIO_1" pad="6"/>
-<connect gate="G$1" pin="DIO_10" pad="16"/>
-<connect gate="G$1" pin="DIO_11" pad="17"/>
-<connect gate="G$1" pin="DIO_12" pad="18"/>
-<connect gate="G$1" pin="DIO_13" pad="19"/>
-<connect gate="G$1" pin="DIO_14" pad="20"/>
-<connect gate="G$1" pin="DIO_15" pad="21"/>
-<connect gate="G$1" pin="DIO_16" pad="26"/>
-<connect gate="G$1" pin="DIO_17" pad="27"/>
-<connect gate="G$1" pin="DIO_18" pad="28"/>
-<connect gate="G$1" pin="DIO_19" pad="29"/>
-<connect gate="G$1" pin="DIO_2" pad="7"/>
-<connect gate="G$1" pin="DIO_20" pad="30"/>
-<connect gate="G$1" pin="DIO_21" pad="31"/>
-<connect gate="G$1" pin="DIO_22" pad="32"/>
-<connect gate="G$1" pin="DIO_23" pad="36"/>
-<connect gate="G$1" pin="DIO_24" pad="37"/>
-<connect gate="G$1" pin="DIO_25" pad="38"/>
-<connect gate="G$1" pin="DIO_26" pad="39"/>
-<connect gate="G$1" pin="DIO_27" pad="40"/>
-<connect gate="G$1" pin="DIO_28" pad="41"/>
-<connect gate="G$1" pin="DIO_29" pad="42"/>
-<connect gate="G$1" pin="DIO_3" pad="8"/>
-<connect gate="G$1" pin="DIO_30" pad="43"/>
-<connect gate="G$1" pin="DIO_4" pad="9"/>
-<connect gate="G$1" pin="DIO_5" pad="10"/>
-<connect gate="G$1" pin="DIO_6" pad="11"/>
-<connect gate="G$1" pin="DIO_7" pad="12"/>
-<connect gate="G$1" pin="DIO_8" pad="14"/>
-<connect gate="G$1" pin="DIO_9" pad="15"/>
-<connect gate="G$1" pin="EP" pad="49"/>
-<connect gate="G$1" pin="JTAG_TCKC" pad="25"/>
-<connect gate="G$1" pin="JTAG_TMSC" pad="24"/>
-<connect gate="G$1" pin="RESET_N" pad="35"/>
-<connect gate="G$1" pin="RF_N" pad="2"/>
-<connect gate="G$1" pin="RF_P" pad="1"/>
-<connect gate="G$1" pin="VDDR" pad="45"/>
-<connect gate="G$1" pin="VDDR_RF" pad="48"/>
-<connect gate="G$1" pin="VDDS" pad="44"/>
-<connect gate="G$1" pin="VDDS2" pad="13"/>
-<connect gate="G$1" pin="VDDS3" pad="22"/>
-<connect gate="G$1" pin="VDDS_DCDC" pad="34"/>
-<connect gate="G$1" pin="X32K_Q1" pad="3"/>
-<connect gate="G$1" pin="X32K_Q2" pad="4"/>
-<connect gate="G$1" pin="X48M_N" pad="46"/>
-<connect gate="G$1" pin="X48M_P" pad="47"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Texas Instruments SimpleLink? Multi-Standard CC2652R Wireless MCU 48-VQFN -40 to 85" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC2652R1FRGZT" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-CC2652R1FRGZT" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-CC2652R1FRGZT" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ok-discretes-dev">
 <packages>
 <package name="_PKG_C_0402">
@@ -6224,6 +6004,204 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="CC2652R1FRGZT">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFN50P700X700X100-49N">
+<description>&lt;b&gt;RGZ0048A-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="2" x="-3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="3" x="-3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="4" x="-3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="5" x="-3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="6" x="-3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="7" x="-3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="8" x="-3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="9" x="-3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="10" x="-3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="11" x="-3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="12" x="-3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="13" x="-2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="-0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="-0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="26" x="3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="27" x="3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="28" x="3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="29" x="3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="30" x="3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="31" x="3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="32" x="3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="33" x="3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="34" x="3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="35" x="3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="36" x="3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="37" x="2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="38" x="2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="39" x="1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="40" x="1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="41" x="0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="42" x="0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="43" x="-0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="44" x="-0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="45" x="-1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="46" x="-1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="47" x="-2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="48" x="-2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="49" x="0" y="0" dx="5.25" dy="5.25" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
+<circle x="-3.875" y="3.5" radius="0.125" width="0.25" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CC2652R1FRGZT">
+<wire x1="-17.78" y1="38.1" x2="17.78" y2="38.1" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-40.64" x2="17.78" y2="38.1" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-40.64" x2="-17.78" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="38.1" x2="-17.78" y2="-40.64" width="0.254" layer="94"/>
+<pin name="RF_P" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="RF_N" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="X32K_Q1" x="-22.86" y="20.32" length="middle"/>
+<pin name="X32K_Q2" x="-22.86" y="17.78" length="middle"/>
+<pin name="DIO_0" x="-22.86" y="0" length="middle"/>
+<pin name="DIO_1" x="-22.86" y="-2.54" length="middle"/>
+<pin name="DIO_2" x="-22.86" y="-5.08" length="middle"/>
+<pin name="DIO_3" x="-22.86" y="-7.62" length="middle"/>
+<pin name="DIO_4" x="-22.86" y="-10.16" length="middle"/>
+<pin name="DIO_5" x="-22.86" y="-12.7" length="middle"/>
+<pin name="DIO_6" x="-22.86" y="-15.24" length="middle"/>
+<pin name="DIO_7" x="-22.86" y="-17.78" length="middle"/>
+<pin name="VDDS2" x="22.86" y="35.56" length="middle" rot="R180"/>
+<pin name="DIO_8" x="-22.86" y="-20.32" length="middle"/>
+<pin name="DIO_9" x="-22.86" y="-22.86" length="middle"/>
+<pin name="DIO_10" x="-22.86" y="-25.4" length="middle"/>
+<pin name="DIO_11" x="-22.86" y="-27.94" length="middle"/>
+<pin name="DIO_12" x="-22.86" y="-30.48" length="middle"/>
+<pin name="DIO_13" x="-22.86" y="-33.02" length="middle"/>
+<pin name="DIO_14" x="-22.86" y="-35.56" length="middle"/>
+<pin name="DIO_15" x="-22.86" y="-38.1" length="middle"/>
+<pin name="VDDS3" x="22.86" y="33.02" length="middle" rot="R180"/>
+<pin name="DCOUPL" x="-22.86" y="12.7" length="middle"/>
+<pin name="JTAG_TMSC" x="-22.86" y="35.56" length="middle"/>
+<pin name="DIO_23" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="RESET_N" x="-22.86" y="30.48" length="middle"/>
+<pin name="VDDS_DCDC" x="22.86" y="27.94" length="middle" rot="R180"/>
+<pin name="DCDC_SW" x="-22.86" y="25.4" length="middle"/>
+<pin name="DIO_22" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="DIO_21" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="DIO_20" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="DIO_19" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="DIO_18" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIO_17" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="DIO_16" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="JTAG_TCKC" x="-22.86" y="33.02" length="middle"/>
+<pin name="EP" x="-22.86" y="7.62" length="middle"/>
+<pin name="VDDR_RF" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="X48M_P" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="X48M_N" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="VDDR" x="22.86" y="25.4" length="middle" rot="R180"/>
+<pin name="VDDS" x="22.86" y="30.48" length="middle" rot="R180"/>
+<pin name="DIO_30" x="22.86" y="-35.56" length="middle" rot="R180"/>
+<pin name="DIO_29" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="DIO_28" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="DIO_27" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="DIO_26" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="DIO_25" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="DIO_24" x="22.86" y="-20.32" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CC2652R1FRGZT" prefix="IC">
+<description>&lt;b&gt;Texas Instruments SimpleLink? Multi-Standard CC2652R Wireless MCU 48-VQFN -40 to 85&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/cc2652r.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CC2652R1FRGZT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P700X700X100-49N">
+<connects>
+<connect gate="G$1" pin="DCDC_SW" pad="33"/>
+<connect gate="G$1" pin="DCOUPL" pad="23"/>
+<connect gate="G$1" pin="DIO_0" pad="5"/>
+<connect gate="G$1" pin="DIO_1" pad="6"/>
+<connect gate="G$1" pin="DIO_10" pad="16"/>
+<connect gate="G$1" pin="DIO_11" pad="17"/>
+<connect gate="G$1" pin="DIO_12" pad="18"/>
+<connect gate="G$1" pin="DIO_13" pad="19"/>
+<connect gate="G$1" pin="DIO_14" pad="20"/>
+<connect gate="G$1" pin="DIO_15" pad="21"/>
+<connect gate="G$1" pin="DIO_16" pad="26"/>
+<connect gate="G$1" pin="DIO_17" pad="27"/>
+<connect gate="G$1" pin="DIO_18" pad="28"/>
+<connect gate="G$1" pin="DIO_19" pad="29"/>
+<connect gate="G$1" pin="DIO_2" pad="7"/>
+<connect gate="G$1" pin="DIO_20" pad="30"/>
+<connect gate="G$1" pin="DIO_21" pad="31"/>
+<connect gate="G$1" pin="DIO_22" pad="32"/>
+<connect gate="G$1" pin="DIO_23" pad="36"/>
+<connect gate="G$1" pin="DIO_24" pad="37"/>
+<connect gate="G$1" pin="DIO_25" pad="38"/>
+<connect gate="G$1" pin="DIO_26" pad="39"/>
+<connect gate="G$1" pin="DIO_27" pad="40"/>
+<connect gate="G$1" pin="DIO_28" pad="41"/>
+<connect gate="G$1" pin="DIO_29" pad="42"/>
+<connect gate="G$1" pin="DIO_3" pad="8"/>
+<connect gate="G$1" pin="DIO_30" pad="43"/>
+<connect gate="G$1" pin="DIO_4" pad="9"/>
+<connect gate="G$1" pin="DIO_5" pad="10"/>
+<connect gate="G$1" pin="DIO_6" pad="11"/>
+<connect gate="G$1" pin="DIO_7" pad="12"/>
+<connect gate="G$1" pin="DIO_8" pad="14"/>
+<connect gate="G$1" pin="DIO_9" pad="15"/>
+<connect gate="G$1" pin="EP" pad="49"/>
+<connect gate="G$1" pin="JTAG_TCKC" pad="25"/>
+<connect gate="G$1" pin="JTAG_TMSC" pad="24"/>
+<connect gate="G$1" pin="RESET_N" pad="35"/>
+<connect gate="G$1" pin="RF_N" pad="2"/>
+<connect gate="G$1" pin="RF_P" pad="1"/>
+<connect gate="G$1" pin="VDDR" pad="45"/>
+<connect gate="G$1" pin="VDDR_RF" pad="48"/>
+<connect gate="G$1" pin="VDDS" pad="44"/>
+<connect gate="G$1" pin="VDDS2" pad="13"/>
+<connect gate="G$1" pin="VDDS3" pad="22"/>
+<connect gate="G$1" pin="VDDS_DCDC" pad="34"/>
+<connect gate="G$1" pin="X32K_Q1" pad="3"/>
+<connect gate="G$1" pin="X32K_Q2" pad="4"/>
+<connect gate="G$1" pin="X48M_N" pad="46"/>
+<connect gate="G$1" pin="X48M_P" pad="47"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="CC2652R1FRGZT" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc2652r1frgzt/texas-instruments" constant="no"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SimpleLink? Multi-Standard CC2652R Wireless MCU 48-VQFN -40 to 85" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC2652R1FRGZT" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-CC2652R1FRGZT" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CC2652R1FRGZT?qs=rrS6PyfT74ekj88w7n1zLw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6234,7 +6212,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="IC3" library="ok-chips-dev" deviceset="WMCU-CC2652R1FRGZ" device="" value="CC2652R1FRGZ"/>
+<part name="IC3" library="CC2652R1FRGZT" deviceset="CC2652R1FRGZT" device="" value="CC2652R1FRGZ"/>
 <part name="C1" library="ok-discretes-dev" deviceset="CAP" device="-0402" value="100n"/>
 <part name="C2" library="ok-discretes-dev" deviceset="CAP" device="-0402" value="100n"/>
 <part name="R1" library="ok-discretes-dev" deviceset="RES" device="-0402" value="100K"/>

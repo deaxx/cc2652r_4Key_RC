@@ -517,91 +517,6 @@
 <wire x1="24.88325625" y1="9.975475" x2="23.25961875" y2="15.314221875" width="0.2" layer="25" curve="33.831494"/>
 </plain>
 <libraries>
-<library name="ok-chips-dev">
-<packages>
-<package name="QFN50P700X700X100-49N">
-<description>&lt;b&gt;RGZ0048A-3&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="2" x="-3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="3" x="-3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="4" x="-3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="5" x="-3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="6" x="-3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="7" x="-3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="8" x="-3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="9" x="-3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="10" x="-3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="11" x="-3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="12" x="-3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="13" x="-2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="-2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="-1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="-1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="-0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="-0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="22" x="1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="23" x="2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="24" x="2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="25" x="3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="26" x="3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="27" x="3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="28" x="3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="29" x="3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="30" x="3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="31" x="3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="32" x="3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="33" x="3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="34" x="3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="35" x="3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="36" x="3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="37" x="2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="38" x="2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="39" x="1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="40" x="1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="41" x="0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="42" x="0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="43" x="-0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="44" x="-0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="45" x="-1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="46" x="-1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="47" x="-2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="48" x="-2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="49" x="0" y="0" dx="5.25" dy="5.25" layer="1" roundness="3" rot="R90" cream="no"/>
-<text x="0" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.125" y1="4.125" x2="4.125" y2="4.125" width="0.05" layer="51"/>
-<wire x1="4.125" y1="4.125" x2="4.125" y2="-4.125" width="0.05" layer="51"/>
-<wire x1="4.125" y1="-4.125" x2="-4.125" y2="-4.125" width="0.05" layer="51"/>
-<wire x1="-4.125" y1="-4.125" x2="-4.125" y2="4.125" width="0.05" layer="51"/>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
-<circle x="-3.875" y="3.5" radius="0.125" width="0.25" layer="25"/>
-<rectangle x1="-2.5" y1="1.5" x2="-1.5" y2="2.5" layer="31"/>
-<rectangle x1="-1.175" y1="1.5" x2="-0.175" y2="2.5" layer="31"/>
-<rectangle x1="0.175" y1="1.5" x2="1.175" y2="2.5" layer="31"/>
-<rectangle x1="1.5" y1="1.5" x2="2.5" y2="2.5" layer="31"/>
-<rectangle x1="-2.5" y1="0.175" x2="-1.5" y2="1.175" layer="31"/>
-<rectangle x1="-2.5" y1="-1.175" x2="-1.5" y2="-0.175" layer="31"/>
-<rectangle x1="-2.5" y1="-2.5" x2="-1.5" y2="-1.5" layer="31"/>
-<rectangle x1="1.5" y1="-2.5" x2="2.5" y2="-1.5" layer="31"/>
-<rectangle x1="0.175" y1="-2.5" x2="1.175" y2="-1.5" layer="31"/>
-<rectangle x1="-1.175" y1="-2.5" x2="-0.175" y2="-1.5" layer="31"/>
-<rectangle x1="-1.175" y1="-1.175" x2="-0.175" y2="-0.175" layer="31"/>
-<rectangle x1="-1.175" y1="0.175" x2="-0.175" y2="1.175" layer="31"/>
-<rectangle x1="0.175" y1="0.175" x2="1.175" y2="1.175" layer="31"/>
-<rectangle x1="1.5" y1="0.175" x2="2.5" y2="1.175" layer="31"/>
-<rectangle x1="0.175" y1="-1.175" x2="1.175" y2="-0.175" layer="31"/>
-<rectangle x1="1.5" y1="-1.175" x2="2.5" y2="-0.175" layer="31"/>
-</package>
-</packages>
-</library>
 <library name="ok-discretes-dev">
 <packages>
 <package name="_PKG_C_0402">
@@ -1171,6 +1086,71 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package3d>
 </packages3d>
 </library>
+<library name="CC2652R1FRGZT">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFN50P700X700X100-49N">
+<description>&lt;b&gt;RGZ0048A-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="2" x="-3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="3" x="-3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="4" x="-3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="5" x="-3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="6" x="-3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="7" x="-3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="8" x="-3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="9" x="-3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="10" x="-3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="11" x="-3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="12" x="-3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="13" x="-2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="-0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="-0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="26" x="3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="27" x="3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="28" x="3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="29" x="3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="30" x="3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="31" x="3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="32" x="3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="33" x="3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="34" x="3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="35" x="3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="36" x="3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="37" x="2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="38" x="2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="39" x="1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="40" x="1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="41" x="0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="42" x="0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="43" x="-0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="44" x="-0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="45" x="-1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="46" x="-1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="47" x="-2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="48" x="-2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="49" x="0" y="0" dx="5.25" dy="5.25" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
+<circle x="-3.875" y="3.5" radius="0.125" width="0.25" layer="25"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1358,16 +1338,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="IC3" library="ok-chips-dev" package="QFN50P700X700X100-49N" value="CC2652R1FRGZ" x="13.6758" y="27.6371" smashed="yes" rot="R270">
+<element name="IC3" library="CC2652R1FRGZT" package="QFN50P700X700X100-49N" value="CC2652R1FRGZ" x="13.6758" y="27.6371" smashed="yes" rot="R270">
+<attribute name="ARROW_PART_NUMBER" value="CC2652R1FRGZT" x="13.6758" y="27.6371" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc2652r1frgzt/texas-instruments" x="13.6758" y="27.6371" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="Texas Instruments SimpleLink? Multi-Standard CC2652R Wireless MCU 48-VQFN -40 to 85" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1mm" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC2652R1FRGZT" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-CC2652R1FRGZT" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-CC2652R1FRGZT" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CC2652R1FRGZT?qs=rrS6PyfT74ekj88w7n1zLw%3D%3D" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.6758" y="27.6371" size="0.762" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="8.5958" y="-4.1129" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.6758" y="27.6371" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C1" library="ok-discretes-dev" package="_PKG_C_0402" value="100n" x="9.1165" y="20.7156" smashed="yes">
@@ -1493,15 +1473,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08310" x="22.085525" y="20.71075" size="1.778" layer="27" rot="R179.5" display="off"/>
 <attribute name="VALUE" x="22.1010375" y="22.48868125" size="0.6096" layer="27" font="vector" ratio="20" rot="R179.5" align="top-center"/>
 </element>
-<element name="FL1" library="2450BM14G0011T" package="BALUN_2450BM14G0011T" value="2450BM14G0011T" x="16.2" y="33" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="16.2" y="33" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" RF Balun 2.4GHz ~ 2.5GHz 50 / -Ohm 0603 (1608 Metric), 6 PC Pad " x="16.2" y="33" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Johanson Technology" x="16.2" y="33" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="2450BM14G0011T" x="16.2" y="33" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="0603 Johanson" x="16.2" y="33" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="16.2" y="33" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2450BM14G0011T/?ref=eda" x="16.2" y="33" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.193009375" y="31.494759375" size="0.815265625" layer="27" align="top-left"/>
+<element name="FL1" library="2450BM14G0011T" package="BALUN_2450BM14G0011T" value="2450BM14G0011T" x="16.17239375" y="33.0069" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" RF Balun 2.4GHz ~ 2.5GHz 50 / -Ohm 0603 (1608 Metric), 6 PC Pad " x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Johanson Technology" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="2450BM14G0011T" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="0603 Johanson" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2450BM14G0011T/?ref=eda" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.165403125" y="31.501659375" size="0.815265625" layer="27" align="top-left"/>
 </element>
 <element name="Q1" library="SI2323DS" package="SOT23" value="SI2323DS" x="3.8635" y="18.3175" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="3.8635" y="18.3175" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2006,8 +1986,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="0.8873" y="15.3491" extent="1-16" drill="0.3"/>
 <via x="0.8873" y="20.3523" extent="1-16" drill="0.3"/>
 <via x="0.8873" y="19.4142" extent="1-16" drill="0.3"/>
-<via x="15.2" y="32.5" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="15.2" y="33.1" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.144784375" y="32.5" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.137884375" y="33.1" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="15.2" y="33.9" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="15.7" y="34.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="16.2" y="34.7" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2250,15 +2230,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC3" pad="1"/>
 <contactref element="FL1" pad="4"/>
 <wire x1="16.4258" y1="31.0871" x2="16.4258" y2="31.8258" width="0.254" layer="1"/>
-<wire x1="16.61" y1="32.01" x2="16.61" y2="32.5" width="0.254" layer="1"/>
-<wire x1="16.4258" y1="31.8258" x2="16.61" y2="32.01" width="0.254" layer="1"/>
+<wire x1="16.58239375" y1="31.98239375" x2="16.58239375" y2="32.5069" width="0.254" layer="1"/>
+<wire x1="16.4258" y1="31.8258" x2="16.58239375" y2="31.98239375" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC3" pad="2"/>
 <contactref element="FL1" pad="3"/>
 <wire x1="15.9258" y1="31.0871" x2="15.9258" y2="31.826165625" width="0.254" layer="1"/>
-<wire x1="15.79" y1="31.961965625" x2="15.79" y2="32.5" width="0.254" layer="1"/>
-<wire x1="15.9258" y1="31.826165625" x2="15.79" y2="31.961965625" width="0.254" layer="1"/>
+<wire x1="15.76239375" y1="31.989571875" x2="15.76239375" y2="32.5069" width="0.254" layer="1"/>
+<wire x1="15.9258" y1="31.826165625" x2="15.76239375" y2="31.989571875" width="0.254" layer="1"/>
 </signal>
 <signal name="1">
 <contactref element="IC3" pad="6"/>
@@ -2479,8 +2459,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$3">
 <contactref element="R9" pad="2"/>
 <contactref element="FL1" pad="1"/>
-<wire x1="17.2587125" y1="34.911078125" x2="16.0974375" y2="33.8074375" width="0.3048" layer="1"/>
-<wire x1="15.79" y1="33.5" x2="16.0974375" y2="33.8074375" width="0.3048" layer="1"/>
+<wire x1="17.2587125" y1="34.911078125" x2="16.1404125" y2="33.848278125" width="0.3048" layer="1"/>
+<wire x1="15.76239375" y1="33.5069" x2="16.1404125" y2="33.848278125" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R9" pad="1"/>
