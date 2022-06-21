@@ -1,4 +1,4 @@
-# cc2652r/rb_4Key_RC
+# cc2652r/rb/p_4Key_RC
 Box
 https://aliexpress.ru/item/1005004141598897.html
 
