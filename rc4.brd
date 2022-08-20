@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -198,10 +198,9 @@
 </polygon>
 <text x="18.606215625" y="5.0889625" size="0.8128" layer="25" rot="R180">JLCJLCJLCJLC</text>
 <hole x="26.076" y="5.888" drill="1.8"/>
-<wire x1="29.4" y1="0.2405" x2="0.2" y2="0.2405" width="0.1524" layer="20"/>
-<wire x1="0.2" y1="0.2405" x2="0.2" y2="26.8" width="0.1524" layer="20"/>
-<wire x1="29.4" y1="0.2405" x2="29.4" y2="27" width="0.1524" layer="20"/>
+<wire x1="0.2" y1="0.4" x2="0.2" y2="26.8" width="0.1524" layer="20"/>
 <hole x="4.776" y="37.388" drill="1.8"/>
+<wire x1="29.4" y1="0.3" x2="29.4" y2="27" width="0.1524" layer="20"/>
 <wire x1="6.3" y1="42" x2="23.3" y2="42" width="0.1524" layer="20"/>
 <wire x1="23.3" y1="42" x2="23.7" y2="42" width="0.1524" layer="20"/>
 <wire x1="19.4" y1="36.7" x2="19.4" y2="36.1" width="0.2032" layer="41"/>
@@ -521,6 +520,11 @@
 <text x="1.480896875" y="28.473084375" size="0.8128" layer="26" font="vector" ratio="12" rot="MR179.6">TDI</text>
 <text x="1.480896875" y="27.173084375" size="0.8128" layer="26" font="vector" ratio="12" rot="MR179.6">GND</text>
 <text x="1.480896875" y="25.873084375" size="0.8128" layer="26" font="vector" ratio="12" rot="MR179.6">3V3</text>
+<wire x1="0.2" y1="0.4" x2="7.2" y2="0.4" width="0.1524" layer="20"/>
+<wire x1="9.7" y1="2.1" x2="9.5" y2="2" width="0.1524" layer="20"/>
+<wire x1="9.7" y1="2.1" x2="22.7" y2="0.3" width="0.1524" layer="20" curve="-68.896385"/>
+<wire x1="22.7" y1="0.3" x2="29.4" y2="0.3" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="2" x2="7.2" y2="0.4" width="0.1524" layer="20" curve="16.518875"/>
 </plain>
 <libraries>
 <library name="ok-discretes-dev">
@@ -1479,15 +1483,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08310" x="23.99601875" y="23.250828125" size="1.778" layer="27" rot="R269.5" display="off"/>
 <attribute name="VALUE" x="22.2180875" y="23.266340625" size="0.6096" layer="27" font="vector" ratio="20" rot="R269.5" align="top-center"/>
 </element>
-<element name="FL1" library="2450BM14G0011T" package="BALUN_2450BM14G0011T" value="2450BM14G0011T" x="16.17239375" y="33.0069" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" RF Balun 2.4GHz ~ 2.5GHz 50 / -Ohm 0603 (1608 Metric), 6 PC Pad " x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Johanson Technology" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="2450BM14G0011T" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="0603 Johanson" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2450BM14G0011T/?ref=eda" x="16.17239375" y="33.0069" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.165403125" y="31.501659375" size="0.815265625" layer="27" align="top-left"/>
+<element name="FL1" library="2450BM14G0011T" package="BALUN_2450BM14G0011T" value="2450BM14G0011T" x="16.17239375" y="32.880384375" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="16.17239375" y="32.880384375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" RF Balun 2.4GHz ~ 2.5GHz 50 / -Ohm 0603 (1608 Metric), 6 PC Pad " x="16.17239375" y="32.880384375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Johanson Technology" x="16.17239375" y="32.880384375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="2450BM14G0011T" x="16.17239375" y="32.880384375" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="0603 Johanson" x="16.17239375" y="32.880384375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="16.17239375" y="32.880384375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2450BM14G0011T/?ref=eda" x="16.17239375" y="32.880384375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.165403125" y="31.37514375" size="0.815265625" layer="27" align="top-left"/>
 </element>
 <element name="Q1" library="SI2323DS" package="SOT23" value="SI2323DS" x="3.8635" y="18.3175" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="3.8635" y="18.3175" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1934,23 +1938,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="4.327" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="5.2651" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="6.2032" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="7.1413" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="8.0794" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="9.0175" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="9.9556" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="10.8937" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="11.8318" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="12.7699" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="13.708" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="14.6461" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="15.5842" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="16.5223" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="17.4604" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="18.3985" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="19.3366" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="20.2747" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="21.2128" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="22.1509" y="0.9649" extent="1-16" drill="0.3"/>
+<via x="7.1413" y="1.0919" extent="1-16" drill="0.3"/>
+<via x="7.8254" y="1.5999" extent="1-16" drill="0.3"/>
+<via x="8.5095" y="2.1079" extent="1-16" drill="0.3"/>
+<via x="9.1936" y="2.4889" extent="1-16" drill="0.3"/>
+<via x="10.0047" y="2.8699" extent="1-16" drill="0.3"/>
+<via x="10.9428" y="3.2509" extent="1-16" drill="0.3"/>
+<via x="12.0079" y="3.5049" extent="1-16" drill="0.3"/>
+<via x="12.946" y="3.7589" extent="1-16" drill="0.3"/>
+<via x="14.1381" y="3.8859" extent="1-16" drill="0.3"/>
+<via x="15.2032" y="3.8859" extent="1-16" drill="0.3"/>
+<via x="16.2683" y="3.7589" extent="1-16" drill="0.3"/>
+<via x="17.2064" y="3.6319" extent="1-16" drill="0.3"/>
+<via x="18.1445" y="3.3779" extent="1-16" drill="0.3"/>
+<via x="18.9556" y="3.1239" extent="1-16" drill="0.3"/>
+<via x="19.8937" y="2.7429" extent="1-16" drill="0.3"/>
+<via x="20.7048" y="2.3619" extent="1-16" drill="0.3"/>
+<via x="21.6429" y="1.8539" extent="1-16" drill="0.3"/>
 <via x="23.089" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="24.0271" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="24.9652" y="0.9649" extent="1-16" drill="0.3"/>
@@ -2008,14 +2012,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="15.13650625" y="32.524834375" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="15.137884375" y="33.1" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="15.148109375" y="34.2272875" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="15.7" y="34.3" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="16.2" y="34.7" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.795859375" y="34.218534375" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="16.223965625" y="34.6329125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="16.5746125" y="35.12421875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.0352625" y="35.63919375" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.21339375" y="36.325828125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.2" y="32.86325625" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="17.2" y="33.4" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="17.4" y="34" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="17.18801875" y="33.4678875" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="17.18254375" y="34.041825" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.94980625" y="34.5529375" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="18.478490625" y="35.028" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="18.619021875" y="35.6508" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2134,6 +2138,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="22.8552875" y="23.27158125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="10.6552875" y="19.67158125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="11.7552875" y="22.37158125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="22.2779" y="1.3459" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="DCOUPL">
 <contactref element="IC3" pad="23"/>
@@ -2256,16 +2261,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$1">
 <contactref element="IC3" pad="1"/>
 <contactref element="FL1" pad="4"/>
-<wire x1="16.4258" y1="31.0871" x2="16.4258" y2="31.8258" width="0.254" layer="1"/>
-<wire x1="16.58239375" y1="31.98239375" x2="16.58239375" y2="32.5069" width="0.254" layer="1"/>
-<wire x1="16.4258" y1="31.8258" x2="16.58239375" y2="31.98239375" width="0.254" layer="1"/>
+<wire x1="16.4258" y1="31.0871" x2="16.427375" y2="31.467275" width="0.3048" layer="1"/>
+<wire x1="16.427375" y1="31.467275" x2="16.58239375" y2="32.380384375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC3" pad="2"/>
 <contactref element="FL1" pad="3"/>
-<wire x1="15.9258" y1="31.0871" x2="15.9258" y2="31.826165625" width="0.254" layer="1"/>
-<wire x1="15.76239375" y1="31.989571875" x2="15.76239375" y2="32.5069" width="0.254" layer="1"/>
-<wire x1="15.9258" y1="31.826165625" x2="15.76239375" y2="31.989571875" width="0.254" layer="1"/>
+<wire x1="15.9258" y1="31.0871" x2="15.924284375" y2="31.47001875" width="0.3048" layer="1"/>
+<wire x1="15.924284375" y1="31.47001875" x2="15.76239375" y2="32.380384375" width="0.3048" layer="1"/>
 </signal>
 <signal name="1">
 <contactref element="IC3" pad="6"/>
@@ -2480,8 +2483,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$3">
 <contactref element="R9" pad="2"/>
 <contactref element="FL1" pad="1"/>
-<wire x1="17.2587125" y1="34.911078125" x2="16.1404125" y2="33.848278125" width="0.3048" layer="1"/>
-<wire x1="15.76239375" y1="33.5069" x2="16.1404125" y2="33.848278125" width="0.3048" layer="1"/>
+<wire x1="15.76239375" y1="33.380384375" x2="15.74608125" y2="33.398446875" width="0.3048" layer="1"/>
+<wire x1="17.2587125" y1="34.911078125" x2="15.74608125" y2="33.398446875" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R9" pad="1"/>
