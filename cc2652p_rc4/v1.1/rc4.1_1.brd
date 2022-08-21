@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -198,10 +198,9 @@
 </polygon>
 <text x="18.606215625" y="5.0889625" size="0.8128" layer="25" rot="R180">JLCJLCJLCJLC</text>
 <hole x="26.076" y="5.888" drill="1.8"/>
-<wire x1="29.4" y1="0.2405" x2="0.2" y2="0.2405" width="0.1524" layer="20"/>
-<wire x1="0.2" y1="0.2405" x2="0.2" y2="26.8" width="0.1524" layer="20"/>
-<wire x1="29.4" y1="0.2405" x2="29.4" y2="27" width="0.1524" layer="20"/>
+<wire x1="0.2" y1="0.4" x2="0.2" y2="26.8" width="0.1524" layer="20"/>
 <hole x="4.776" y="37.388" drill="1.8"/>
+<wire x1="29.4" y1="0.4" x2="29.4" y2="27" width="0.1524" layer="20"/>
 <wire x1="6.3" y1="42" x2="23.3" y2="42" width="0.1524" layer="20"/>
 <wire x1="23.3" y1="42" x2="23.7" y2="42" width="0.1524" layer="20"/>
 <wire x1="6.3" y1="42" x2="6" y2="42" width="0.1524" layer="20"/>
@@ -209,7 +208,7 @@
 <wire x1="23.3" y1="42" x2="28.7" y2="36.7" width="0.1524" layer="20" curve="-88.929078"/>
 <wire x1="0.8" y1="36.8" x2="0.2" y2="26.8" width="0.1524" layer="20"/>
 <wire x1="28.7" y1="36.7" x2="29.4" y2="27" width="0.1524" layer="20"/>
-<text x="11.460034375" y="1.467559375" size="1.016" layer="25" font="vector" ratio="12" rot="SR359.6">t.me/deaxx</text>
+<text x="2.2401875" y="1.36555" size="1.016" layer="25" font="vector" ratio="12" rot="SR89.6">t.me/deaxx</text>
 <wire x1="5.7" y1="14" x2="24" y2="14" width="0.1524" layer="21"/>
 <wire x1="5.7" y1="14" x2="5.8" y2="14.1" width="0.1524" layer="25"/>
 <wire x1="24" y1="14" x2="23.9" y2="14.2" width="0.1524" layer="25"/>
@@ -521,6 +520,11 @@
 <wire x1="22.569778125" y1="36.6949625" x2="22.569778125" y2="35.9949625" width="0.2" layer="41"/>
 <wire x1="22.569778125" y1="35.9949625" x2="23.85466875" y2="36" width="0.2" layer="41"/>
 <wire x1="23.85466875" y1="36" x2="23.85466875" y2="36.7" width="0.2" layer="41"/>
+<wire x1="9.4" y1="2" x2="7.4" y2="0.4" width="0.1524" layer="20" curve="24.189515"/>
+<wire x1="9.4" y1="2" x2="9.8" y2="2.2" width="0.1524" layer="20"/>
+<wire x1="9.8" y1="2.2" x2="22.6" y2="0.4" width="0.1524" layer="20" curve="-69.139553"/>
+<wire x1="7.4" y1="0.4" x2="0.2" y2="0.4" width="0.1524" layer="20"/>
+<wire x1="22.6" y1="0.4" x2="29.4" y2="0.4" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="ok-discretes-dev">
@@ -1444,7 +1448,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="18.6288" y="26.7481" size="0.762" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C18" library="ok-discretes-dev" package="_PKG_C_0402" value="100n" x="18.275365625" y="30.8149375" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.57810625" y="31.462590625" size="0.762" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="18.67955625" y="31.312825" size="0.762" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="L1" library="ok-discretes-dev" package="_PKG_L_0603" value="BLM18HE152SN1" x="8.541025" y="22.43009375" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.0491" y="23.93065" size="0.762" layer="25" font="vector" ratio="10" rot="R180"/>
@@ -1465,7 +1469,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY_PART" value="1253-2042-1-ND" x="20.618659375" y="30.015659375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_NAME" value="KYOCERA" x="20.618659375" y="30.015659375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART" value="CX2016DB48000C0FPLC1" x="20.618659375" y="30.015659375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.645334375" y="29.473971875" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="19.444578125" y="29.38626875" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="18.078659375" y="31.285659375" size="0.762" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="E1" library="SparkFun-RF2" package="TRACE_ANTENNA_2.4GHZ_15.2MM" package3d_urn="urn:adsk.eagle:package:39575/1" value="ANTENNA-GROUNDEDTRACE-15.2MM" x="24.239753125" y="36.69170625" smashed="yes" rot="SR0"/>
@@ -1621,7 +1625,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="14.089621875" y="48.869096875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="14.089621875" y="48.869096875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="14.089621875" y="48.869096875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="20.444221875" y="33.6761375" size="0.762" layer="25" rot="R270"/>
+<attribute name="NAME" x="20.503415625" y="33.85365625" size="0.762" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="14.089621875" y="48.869096875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="14.089621875" y="48.869096875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="14.089621875" y="48.869096875" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1651,7 +1655,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="27.953403125" y="28.16385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="27.953403125" y="28.16385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="27.953403125" y="28.16385" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="20.154165625" y="32.394440625" size="0.762" layer="25" rot="R90"/>
+<attribute name="NAME" x="20.17784375" y="32.72580625" size="0.762" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="27.953403125" y="28.16385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="27.953403125" y="28.16385" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="27.953403125" y="28.16385" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1676,15 +1680,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="7.962715625" y="19.712921875" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="7.962715625" y="19.712921875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C20" library="discretes-dev" package="CAPC1005X40N" value="12p" x="19.500959375" y="34.606659375" smashed="yes">
-<attribute name="AVAILABILITY" value="Good" x="19.500959375" y="34.606659375" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="19.500959375" y="34.606659375" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Yageo" x="19.500959375" y="34.606659375" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="RC0402FR-073M6L" x="19.500959375" y="34.606659375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.750959375" y="36.036659375" size="0.762" layer="25"/>
-<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="19.500959375" y="34.606659375" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="19.500959375" y="34.606659375" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="19.500959375" y="34.606659375" size="1.778" layer="27" display="off"/>
+<element name="C20" library="discretes-dev" package="CAPC1005X40N" value="12p" x="19.58085625" y="34.606659375" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="19.58085625" y="34.606659375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="19.58085625" y="34.606659375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="19.58085625" y="34.606659375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="RC0402FR-073M6L" x="19.58085625" y="34.606659375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18.83085625" y="36.036659375" size="0.762" layer="25"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="19.58085625" y="34.606659375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="19.58085625" y="34.606659375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="19.58085625" y="34.606659375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C23" library="discretes-dev" package="CAPC1005X40N" value="1.8p" x="21.10540625" y="35.0312625" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="21.10540625" y="35.0312625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1695,6 +1699,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="21.10540625" y="35.0312625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="21.10540625" y="35.0312625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="21.10540625" y="35.0312625" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C21" library="ok-discretes-dev" package="_PKG_C_0402" value="7.5p" x="21.26123125" y="32.02051875" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.246140625" y="31.7302375" size="0.762" layer="25" font="vector"/>
+<attribute name="VALUE" x="22.15023125" y="33.03651875" size="0.508" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C22" library="ok-discretes-dev" package="_PKG_C_0402" value="7.5p" x="22.52896875" y="30.40058125" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.75761875" y="29.611984375" size="0.762" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="21.51296875" y="31.28958125" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -1771,8 +1783,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="11.7708" y="19.0138"/>
 <vertex x="15.7205" y="19.0138"/>
 <vertex x="22.047896875" y="25.341196875"/>
-<vertex x="22.047896875" y="31.7297625"/>
-<vertex x="17.0159" y="31.7297625"/>
+<vertex x="22.047896875" y="31.919115625"/>
+<vertex x="17.0159" y="31.919115625"/>
 </polygon>
 <via x="19.329575" y="28.436525" extent="1-16" drill="0.254" diameter="0.4572"/>
 <wire x1="19.0878" y1="27.7641" x2="19.0878" y2="27.8639" width="0.3048" layer="1"/>
@@ -1910,8 +1922,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="11.3898" y="24.5891"/>
 <vertex x="16.3428" y="24.5891"/>
 <vertex x="16.5968" y="24.8431"/>
-<vertex x="16.5968" y="32.10469375"/>
-<vertex x="22.059228125" y="32.10469375"/>
+<vertex x="16.5968" y="32.270375"/>
+<vertex x="22.059228125" y="32.270375"/>
 <vertex x="22.059228125" y="36.619"/>
 <vertex x="7.0337" y="36.619"/>
 <vertex x="7.0337" y="32.171"/>
@@ -2018,22 +2030,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="5.2651" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="6.2032" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="7.1413" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="8.0794" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="9.0175" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="9.9556" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="10.8937" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="11.8318" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="12.7699" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="13.708" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="14.6461" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="15.5842" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="16.5223" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="17.4604" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="18.3985" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="19.3366" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="20.2747" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="21.2128" y="0.9649" extent="1-16" drill="0.3"/>
-<via x="22.1509" y="0.9649" extent="1-16" drill="0.3"/>
+<via x="7.7794" y="1.5649" extent="1-16" drill="0.3"/>
+<via x="8.6175" y="2.1649" extent="1-16" drill="0.3"/>
+<via x="9.4556" y="2.6649" extent="1-16" drill="0.3"/>
+<via x="10.3937" y="3.0649" extent="1-16" drill="0.3"/>
+<via x="11.3318" y="3.3649" extent="1-16" drill="0.3"/>
+<via x="12.3699" y="3.6649" extent="1-16" drill="0.3"/>
+<via x="13.408" y="3.8649" extent="1-16" drill="0.3"/>
+<via x="14.5461" y="3.9649" extent="1-16" drill="0.3"/>
+<via x="15.4842" y="3.9649" extent="1-16" drill="0.3"/>
+<via x="16.4223" y="3.8649" extent="1-16" drill="0.3"/>
+<via x="17.4604" y="3.6649" extent="1-16" drill="0.3"/>
+<via x="18.4985" y="3.3649" extent="1-16" drill="0.3"/>
+<via x="19.5366" y="2.9649" extent="1-16" drill="0.3"/>
+<via x="20.5747" y="2.4649" extent="1-16" drill="0.3"/>
+<via x="21.4128" y="1.9649" extent="1-16" drill="0.3"/>
+<via x="22.2509" y="1.4649" extent="1-16" drill="0.3"/>
 <via x="23.089" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="24.0271" y="0.9649" extent="1-16" drill="0.3"/>
 <via x="24.9652" y="0.9649" extent="1-16" drill="0.3"/>
@@ -2136,7 +2148,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="6.1" y="32.7" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="6" y="31.8" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="24.6" y="33.3" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="22.9" y="33.4" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="22.686984375" y="33.139778125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="22.6" y="34.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="27.1" y="34.2" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="27.7" y="31.7" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2146,7 +2158,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="26.2" y="33.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="26.3" y="35.4" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="24.5" y="30.8" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="22.2" y="33.1" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="21.478121875" y="33.301078125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="21.919" y="35.146" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="24.1" y="32" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="27.5" y="21.3" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2229,11 +2241,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="19.908759375" y="31.964725" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="19.204315625" y="31.87441875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="14.49321875" y="33.966915625" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="21.253521875" y="33.70369375" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="21.2771875" y="33.892946875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="21.691546875" y="32.745096875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="20.9575625" y="32.768765625" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="20.614246875" y="33.8812125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="21.961275" y="33.5943375" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="21.925775" y="33.8663875" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.722453125" y="35.9719125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="19.24921875" y="29.076309375" extent="1-16" drill="0.2" diameter="0.45"/>
+<contactref element="C21" pad="1"/>
+<contactref element="C22" pad="1"/>
 </signal>
 <signal name="DCOUPL">
 <contactref element="IC3" pad="23"/>
@@ -2615,6 +2631,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.193659375" y1="29.361678125" x2="21.193659375" y2="29.290659375" width="0.2" layer="1"/>
 <wire x1="21.193659375" y1="29.361678125" x2="20.5553375" y2="30" width="0.2" layer="1"/>
 <wire x1="19.5" y1="30" x2="20.5553375" y2="30" width="0.2" layer="1"/>
+<contactref element="C22" pad="2"/>
+<wire x1="21.193659375" y1="29.290659375" x2="21.794978125" y2="29.907434375" width="0.1524" layer="1"/>
+<wire x1="21.794978125" y1="29.907434375" x2="21.858125" y2="29.97058125" width="0.1524" layer="1"/>
+<wire x1="21.858125" y1="29.97058125" x2="22.52896875" y2="29.97058125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="IC3" pad="47"/>
@@ -2624,6 +2644,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.587146875" y1="29.887940625" x2="19.439865625" y2="30.740659375" width="0.2" layer="1"/>
 <wire x1="17.177046875" y1="29.8871" x2="17.1778875" y2="29.887940625" width="0.2" layer="1"/>
 <wire x1="17.1778875" y1="29.887940625" x2="18.587146875" y2="29.887940625" width="0.2" layer="1"/>
+<contactref element="C21" pad="2"/>
+<wire x1="20.043659375" y1="30.740659375" x2="20.043659375" y2="31.4630375" width="0.1524" layer="1"/>
+<wire x1="20.83123125" y1="32.02051875" x2="20.601140625" y2="32.02051875" width="0.1524" layer="1"/>
+<wire x1="20.601140625" y1="32.02051875" x2="20.043659375" y2="31.4630375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="C10" pad="1"/>
@@ -2674,14 +2698,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$1">
 <contactref element="C20" pad="2"/>
 <contactref element="C23" pad="1"/>
-<wire x1="19.932959375" y1="34.606659375" x2="21.098009375" y2="34.606659375" width="0.3048" layer="1"/>
+<wire x1="20.01285625" y1="34.606659375" x2="21.098009375" y2="34.606659375" width="0.3048" layer="1"/>
 <wire x1="21.098009375" y1="34.606659375" x2="21.10540625" y2="34.5992625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="L6" pad="2"/>
 <contactref element="C20" pad="1"/>
-<wire x1="18.078728125" y1="34.615021875" x2="19.060596875" y2="34.615021875" width="0.3048" layer="1"/>
-<wire x1="19.060596875" y1="34.615021875" x2="19.068959375" y2="34.606659375" width="0.3048" layer="1"/>
+<wire x1="18.078728125" y1="34.615021875" x2="19.14049375" y2="34.615021875" width="0.3048" layer="1"/>
+<wire x1="19.14049375" y1="34.615021875" x2="19.14885625" y2="34.606659375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$2">
 </signal>
