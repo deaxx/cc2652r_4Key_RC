@@ -1262,8 +1262,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2.5mil"/>
-<param name="mlMaxStopFrame" value="2.5mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="50mil"/>
@@ -1470,7 +1470,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY_PART" value="1253-2042-1-ND" x="20.39691875" y="30.0895625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_NAME" value="KYOCERA" x="20.39691875" y="30.0895625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART" value="CX2016DB48000C0FPLC1" x="20.39691875" y="30.0895625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.42359375" y="29.547875" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="18.93710625" y="29.53355625" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="17.85691875" y="31.3595625" size="0.762" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="E1" library="SparkFun-RF2" package="TRACE_ANTENNA_2.4GHZ_15.2MM" package3d_urn="urn:adsk.eagle:package:39575/1" value="ANTENNA-GROUNDEDTRACE-15.2MM" x="21.0153" y="36.735521875" smashed="yes" rot="SR0">
@@ -1618,6 +1618,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="0" x="2.4" y="9.370709375" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="2.4" y="24.965709375" size="1" layer="37"/>
 <attribute name="VALUE" x="1.892" y="26.362709375" size="0.0254" layer="27"/>
+</element>
+<element name="C9" library="ok-discretes-dev" package="_PKG_C_0402" value="6p8" x="21.43494375" y="32.155446875" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.441021875" y="32.57991875" size="0.762" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="22.32394375" y="33.171446875" size="0.508" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C4" library="ok-discretes-dev" package="_PKG_C_0402" value="6p8" x="22.593621875" y="29.785778125" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.135128125" y="30.734421875" size="0.762" layer="25" font="vector"/>
+<attribute name="VALUE" x="21.577621875" y="30.674778125" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -2069,16 +2077,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="25.3" y="31.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="27.7" y="27.1" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="26.9" y="28" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="22.4" y="31.6" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="26.4" y="26" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="27.7" y="24.6" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="26.4" y="24.7" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="26.6" y="23.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="25.1552875" y="23.77158125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="22.7" y="29" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="22.8" y="27.5" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="20.7" y="28.4" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="20.9" y="31.8" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="5.7" y="23.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="5.9" y="20.1" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="4" y="35.1" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2159,6 +2164,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="15.14294375" y="32.50974375" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="17.01600625" y="22.51929375" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="13.5490125" y="22.5467" extent="1-16" drill="0.2" diameter="0.45"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C4" pad="1"/>
+<via x="19.308884375" y="31.7607125" extent="1-16" drill="0.2" diameter="0.45"/>
 </signal>
 <signal name="DCOUPL">
 <contactref element="IC3" pad="23"/>
@@ -2563,14 +2571,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.97191875" y1="29.40193125" x2="20.97191875" y2="29.3645625" width="0.1524" layer="1"/>
 <wire x1="20.97191875" y1="29.40193125" x2="20.307534375" y2="30.066315625" width="0.1524" layer="1"/>
 <wire x1="18.823328125" y1="30.066315625" x2="20.307534375" y2="30.066315625" width="0.1524" layer="1"/>
+<contactref element="C4" pad="2"/>
+<wire x1="20.97191875" y1="29.3645625" x2="22.5848375" y2="29.3645625" width="0.1524" layer="1"/>
+<wire x1="22.5848375" y1="29.3645625" x2="22.593621875" y2="29.355778125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="IC3" pad="47"/>
+<contactref element="C9" pad="2"/>
 <contactref element="Y1" pad="1"/>
-<wire x1="17.177046875" y1="29.8871" x2="18.189715625" y2="29.8871" width="0.1524" layer="1"/>
-<wire x1="18.189715625" y1="29.8871" x2="19.119990625" y2="30.817375" width="0.1524" layer="1"/>
-<wire x1="19.119990625" y1="30.817375" x2="19.81910625" y2="30.817375" width="0.1524" layer="1"/>
-<wire x1="19.81910625" y1="30.817375" x2="19.82191875" y2="30.8145625" width="0.1524" layer="1"/>
+<wire x1="18.248975" y1="29.8871" x2="18.70759375" y2="30.34571875" width="0.1524" layer="1"/>
+<wire x1="17.177046875" y1="29.8871" x2="18.248975" y2="29.8871" width="0.1524" layer="1"/>
+<wire x1="21.00494375" y1="32.03495625" x2="19.82191875" y2="30.85193125" width="0.1524" layer="1"/>
+<wire x1="19.82191875" y1="30.85193125" x2="19.82191875" y2="30.8145625" width="0.1524" layer="1"/>
+<wire x1="21.00494375" y1="32.155446875" x2="21.00494375" y2="32.03495625" width="0.1524" layer="1"/>
+<wire x1="19.82191875" y1="30.766271875" x2="19.82191875" y2="30.8145625" width="0.1524" layer="1"/>
+<wire x1="19.82191875" y1="30.766271875" x2="19.401365625" y2="30.34571875" width="0.1524" layer="1"/>
+<wire x1="18.70759375" y1="30.34571875" x2="19.401365625" y2="30.34571875" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
