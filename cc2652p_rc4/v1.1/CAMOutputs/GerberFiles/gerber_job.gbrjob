@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-09-19T19:06:47Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.847044,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "rc4.1"
+        },
+        "Owner": "  <>",
+        "Size": {
+            "X": 29.2,
+            "Y": 41.6
+        }
+    }
+}
